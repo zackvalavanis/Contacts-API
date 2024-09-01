@@ -8,6 +8,7 @@ Rails.application.routes.draw do
  # get "/one_contact", controller: "contacts", action: 'first_contact'
  # new naming convention below 
   get "/one_contact" => "contacts#first_contact"
+  
 
 
   # Defines the root path route ("/")

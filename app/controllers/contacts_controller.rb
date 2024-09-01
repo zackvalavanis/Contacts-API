@@ -1,7 +1,6 @@
 class ContactsController < ApplicationController
   def first_contact
-    id = Contact.find_by(id: 1)
-    p id
-    render json: {id: id}
+    contact = Contact.find_by(id: 1)
+    render json: {Contacts: contact}
   end 
 end
